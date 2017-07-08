@@ -17,7 +17,6 @@ while counter<=time:
 else:
     print ('请求已完成')
     input ('按下Enter以列出请求数据,并把数据写入 output.txt')
-    os.remove('output.txt')
     file=open('output.txt','a')
     for output in list1:
         print (output)
