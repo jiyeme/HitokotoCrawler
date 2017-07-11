@@ -3,7 +3,7 @@ import requests
 import os
 counter=1
 list1=[]
-time=int(input('输入请求次数'))
+time=int(input('输入请求次数\n'))
 while counter<=time:
     print ('当前正在请求第 %d 次，共 %d 次' % (counter,time))
     gethitokoto = requests.get('https://sslapi.hitokoto.cn/?encode=text')
